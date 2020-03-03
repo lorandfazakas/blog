@@ -4,3 +4,13 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   and follow the formatting and style given.
 */
+
+#wrapper {
+  margin-left: 0em;
+  /* margin-right: 5em; */
+  /* max-width: 110em; */
+}
+
+.post {
+  max-width: 80em;
+}
