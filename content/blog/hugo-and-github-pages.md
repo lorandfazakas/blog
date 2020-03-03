@@ -21,8 +21,8 @@ This article offers a sample of basic Markdown syntax that can be used in Hugo c
 5. ```rm -rf public```to remove the public directory
 6. ```git submodule add -b master https://github.com/<YOUR-GITHUB-USERNAME>/<YOUR-GITHUB-USERNAME>.github.io.git public``` 
 
-Now the public directory has the **\<YOUR-GITHUB-USERNAME>.github.io** as the remote origin and all of the other source have the **\<YOUR-PROJECT>**. 
-So now to deploy your site all you have to do is generate it, cd into the public folder and finally commit & push.
+Now the public directory has the **\<YOUR-GITHUB-USERNAME>.github.io** and all of the other sources have the **\<YOUR-PROJECT>** as the remote origin. 
+In order to deploy your site all you have to do is generate it, cd into the public folder and finally commit & push.
 
 ## Change the baseurl in your config file
 In the config.toml file don't forget to change the baseurl. For example:
@@ -45,4 +45,4 @@ If you're using a .dev top-level domain then make sure you check the enforce HTT
 (*Note: HTTPS certification can take hours after registering a domain, until then you can't check this box)*
 
 
-And that's it now you have a working hugo generates site hosted directly from your GitHub repository.
+And that's it. Now you have a working website hosted directly from your GitHub repository using a custom domain.
