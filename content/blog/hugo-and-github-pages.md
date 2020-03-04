@@ -39,6 +39,8 @@ Add the below IP addresses as **A** records:
     185.199.110.153
     185.199.111.153
 
+After that add a CNAME record **\<YOUR-GITHUB-USERNAME>.github.io**
+
 Then go to the **\<YOUR-GITHUB-USERNAME>.github.io** repository, open settings and in the GitHub Pages section modify the custom domain.
 If you're using a .dev top-level domain then make sure you check the enforce HTTPS as well. 
 
