@@ -42,7 +42,7 @@ Add the below IP addresses as **A** records:
 Then go to the **\<YOUR-GITHUB-USERNAME>.github.io** repository, open settings and in the GitHub Pages section modify the custom domain.
 If you're using a .dev top-level domain then make sure you check the enforce HTTPS as well. 
 
-(*Note: HTTPS certification can take hours after registering a domain, until then you can't check this box)*
+(*Note: Getting an HTTPS certification can take hours after registering a domain, until then you can't check this box)*
 
 
 And that's it. Now you have a working website hosted directly from your GitHub repository using a custom domain.
