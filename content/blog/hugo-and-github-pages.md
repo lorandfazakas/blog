@@ -2,14 +2,14 @@
 author = "Lorand Fazakas"
 title = "Hugo site on a custom domain hosted by GitHub Pages"
 date = "2020-03-01"
-description = "This article will show you how to host your Hugo generated website on GitHub Pages using a custom domain"
+description = ""
 tags = ["hugo", "github-pages", "html"]
 categories = ["web", ""]
 images  = ["img/2020/03/hugo_and_github.jpg"]
 type = "post"
 +++
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+This article will show you how to host your Hugo generated website on GitHub Pages using a custom domain
 <!--more-->
 
 ## Create the repositories and setup the development environment
